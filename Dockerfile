@@ -1,10 +1,12 @@
 FROM python:3-slim AS builder
 
-RUN pip install mkdocs-material
+RUN apt-get update && \
+    apt-get install -y git
+
+RUN pip install mkdocs-material mkdocs-git-revision-date-localized-plugin
 
 WORKDIR /tmp/build
-COPY docs ./docs
-COPY mkdocs.yml .
+COPY . .
 RUN mkdocs build
 
 FROM nginxinc/nginx-unprivileged:stable

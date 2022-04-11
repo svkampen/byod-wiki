@@ -8,11 +8,17 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: datetime
 theme:
   name: material
   logo: assets/uva.png
   favicon: assets/uva.png
   language: nl
+  icon:
+    repo: fontawesome/brands/github
   features:
     - navigation.tabs # Show top level sections as tabs in navbar
     - navigation.sections # Show second level sections in bold, without requiring a click to expand
