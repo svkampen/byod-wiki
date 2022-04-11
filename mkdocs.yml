@@ -12,3 +12,14 @@ theme:
   name: material
   logo: assets/uva.png
   favicon: assets/uva.png
+  palette:
+    - scheme: default
+      primary: red # TODO Use UvA red color https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-colors
+      toggle:
+        icon: material/weather-sunny
+        name: Donker thema
+    - scheme: slate
+      primary: grey
+      toggle:
+        icon: material/weather-night
+        name: Licht thema
