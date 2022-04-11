@@ -3,6 +3,7 @@ repo_url: https://github.com/UvA-FNWI/byod-wiki/
 repo_name: BYOD Wiki
 edit_uri: edit/main/docs/
 markdown_extensions:
+  - footnotes
   - tables
 theme:
   name: material
