@@ -9,8 +9,8 @@ Version Control Systems (VCS) zoals Git laten je alle versies van je bestanden o
 
 Verschillende sites kunnen gratis Git repositories bewaren, voorbeelden hiervan zijn:
 * [FNWI GitLab](https://gitlab-fnwi.uva.nl) (van de UvA zelf)
-* [GitHub]([GitHub](https://github.com))
-* [GitLab]([GitLab](https://gitlab.com))
+* [GitHub](https://github.com)
+* [GitLab](https://gitlab.com)
 * [BitBucket](https://bitbucket.com)
 * [Gitea](https://gitea.io) (voor op je eigen server)
 

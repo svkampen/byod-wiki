@@ -18,7 +18,7 @@ Zorg allereerst dat je een lege USB-stick van minstens 4 GiB hebt en voer vervol
 4. Selecteer als "Source" het zojuist gedownloade ISO-bestand.
 5. Selecteer je USB-stick als "Target" en klik op "Write". Bevestig dat je graag alle inhoud op de USB-stick wilt vernietigen.
 
-![Screenshot USB writer](./usbwriter.png)
+![Screenshot USB writer](../assets/usbwriter.png)
 
 ## Fast start-up uitschakelen
 *Fast start-up* is een techniek om het opstarten van Windows te versnellen, door bij het afsluiten na het beëindigen van de gebruikerssessie in sluimerstand te gaan, waarbij de systeemstaat naar de harde schijf wordt geschreven om ingeladen te worden wanneer de computer weer opstart. Fast start-up (en sluimerstand in het algemeen) maakt het onveilig om naar je Windows-partitie te schrijven vanuit Linux. Als je dit wilt doen is het dus nodig om fast start-up uit te schakelen.
@@ -68,54 +68,54 @@ Wanneer Ubuntu is opgestart is kies "Install Ubuntu" en volg de instructies om h
 ## De Installatiewizard
 Als de installatiewizard is opgestart dan zal als eerste een taalkeuzemenu verschijnen. Hiermee wordt de taal van het besturingssysteem ingesteld dat we gaan installeren. Hier adviseren we ook om Engels te kiezen, omdat het dan makkelijker is om documentatie raad te plegen, hulp te vragen, etc.
 
-![Welcome](./2004-welcome.png)
+![Welcome](../assets/2004-welcome.png)
 
 Er zal je gevraagd worden om je toetsenbordlayout te kiezen. Als je gebruik wilt maken van de toetsencombinaties als " + e om het teken 'é' te vormen, kies dan "English (US) - English (US, intl., with dead keys)", anders kies
 voor English (US). Deze keuze is altijd later aan te passen en het is dan ook mogelijk om meerdere layouts toe te voegen.
 
-![Keyboard](./2004-keyboard.png)
+![Keyboard](../assets/2004-keyboard.png)
 
 Het scherm daarna zal je vragen software van derden te installeren, vind deze aan. Waarschijnlijk wordt hier gevraagd wordt om een wachtwoord om Secure Boot te configureren. Dit wachtwoord heb je eenmalig nodig na de Ubuntu installatie (het is niet het wachtwoord van je gebruikersaccount, dat komt later).
 
-![Software](./2004-software.png)
+![Software](../assets/2004-software.png)
 
 Mogelijk krijg je hierna een waarschuwing scherm met een melding dat hij Ubuntu niet kan installeren ivm Bitlocker of Intel RST. In het geval van Bitlocker, zie de [[Bitlocker]]-pagina.
 In het geval van Intel RST, vraag om hulp om dit uit te schakelen.
 
-![BitLocker](./2004-bitlocker.png)
+![BitLocker](../assets/2004-bitlocker.png)
 
 In het scherm daarna zal je gevraagd worden hoe je Ubuntu precies wilt installeren. Selecteer hier de optie "Install Ubuntu alongside Windows Boot Manager".
 
-![Installation type](./2004-installationtype.png)
+![Installation type](../assets/2004-installationtype.png)
 
 In het scherm erna kun je kiezen op welke harde schijf je Linux Ubuntu gaat installeren, en hoeveel ruimte je wilt toewijzen aan beide besturingssystemen. De installatiewizard zal je dan vragen of je zeker weet dat je wilt doen, omdat de bewerkingen die gedaan zullen worden niet ongedaan gemaakt kunnen worden. Bevestig dat je dit wilt doen. Zorg ervoor dat je Ubuntu voldoende ruimte geeft, aangezien het een uitdaging is dit later te op te hogen. Ga ervan uit dat je voor software uiteindelijk tussen de twintig en veertig gigabyte nodig gaat hebben, en ook nog gebruikersbestanden kwijt wilt. De basisinstallatie van Ubuntu neemt rond de zeven gigabyte in beslag. Het is dus verstandig om Ubuntu 50-100GB te geven afhankelijk van hoeveel capaciteit je over hebt.
 
-![Installation space](./2004-installationspace.png)
+![Installation space](../assets/2004-installationspace.png)
 
 De laatste paar stappen wijzen zichzelf grotendeels. Een scherm met een wereldkaart zal verschijnen; op basis van de keuze van het land zal de tijdszone, valuta, decimale scheiding et cetera bepaald worden. Hierna wordt gevraagd om enige personalia en wordt een gebruikersaccount aangemaakt. Op Linux is de voorkeur om de gebruikersnaam en de computernaam in kleine letters te schrijven (bijvoorbeeld `voornaam` en `voornaam-laptop`).
 
 Daarna zal de installatie beginnen. Dit zal ongeveer een kwartier tot een uur duren afhankelijk van je laptop. Als de installatie klaar is zal een dialoog verschijnen met de vraag of je wilt herstarten. Herstart het systeem.
 
-![install done](./1804installdone.png)
+![install done](../assets/1804-installdone.png)
 
 Tijdens het herstarten zal een melding verschijnen waarin staat dat je het installatiemedium moet verwijderen. Verwijder de USB-stick, en druk dan op de Enter-toets. Ubuntu zal dan opstarten.
 
 ## Perform MOK management
 Na de installatie is het mogelijk dat je een scherm krijgt met de titel "Perform MOK management" (zo niet kom je direct in GRUB terecht). Hierbij moet je kiezen voor de optie "Enroll MOK".
 
-![MOK enroll stap 1](./mok-enroll-1.png)
+![MOK enroll stap 1](../assets/mok-enroll-1.png)
 
 Kies vervolgens voor "continue".
 
-![MOK enroll stap 2](./mok-enroll-2.png)
+![MOK enroll stap 2](../assets/mok-enroll-2.png)
 
 Kies voor "yes", en voer het wachtwoord in dat je tijdens de installatie bij Configure Secure Boot hebt ingevuld. Het wachtwoord is onzichtbaar tijdens het invoeren; kijk dus niet gek op als er niets verschijnt. Als je denkt het verkeerd getypt te hebben kan je het opnieuw proberen door backspace een aantal keer in te drukken.
 
-![MOK enroll stap 3](./mok-enroll-3.png)
+![MOK enroll stap 3](../assets/mok-enroll-3.png)
 
 Hierna kies je de optie "Reboot".
 
-![MOK enroll stap 4](./mok-enroll-4.png)
+![MOK enroll stap 4](../assets/mok-enroll-4.png)
 
 Vervolgens kom je als normaal in GRUB.
 
@@ -127,4 +127,3 @@ Verbind nu met eduroam zoals beschreven op de [Eduroam](./eduroam.md) pagina. He
 
 ## Softwareinstallatie
 Via het [shell script](./shell-script.md) kan je automatisch benodigde software installeren.
-
