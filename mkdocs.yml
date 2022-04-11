@@ -5,5 +5,8 @@ edit_uri: edit/main/docs/
 markdown_extensions:
   - footnotes
   - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 theme:
   name: material

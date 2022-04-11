@@ -9,17 +9,17 @@ Bron: https://linux.datanose.nl/index.php/Speciaal:AllePaginas
 - [ ] Bitlocker
 - [ ] BitLocker
 - [ ] Cognitive Modelling
-- [ ] Common problems
+- [x] Common problems
 - [ ] Concurrency en Parallel Programmeren
 - [ ] Contact
 - [ ] Continue Wiskunde en Statistiek
 - [x] Datastructuren
 - [x] Discrete Wiskunde en Logica
 - [ ] Dual-boot Problemen
-- [ ] FAQ
+- [x] FAQ
 - [ ] Filosofie en AI
-- [ ] Git
-- [ ] Hoofdpagina
+- [x] Git
+- [x] Hoofdpagina
 - [ ] Inleiding Coginitieve Psychologie
 - [ ] Inleiding Cognitieve Psychologie
 - [ ] Inleiding Kunstmatige Intelligentie
@@ -27,7 +27,7 @@ Bron: https://linux.datanose.nl/index.php/Speciaal:AllePaginas
 - [ ] Inleiding Programmeren
 - [ ] Introductie in Programmeren
 - [ ] Kennissystemen
-- [ ] Known issues
+- [x] Known issues
 - [ ] Language, Speech and Dialogue Processing
 - [x] LaTeX
 - [ ] Leren
@@ -35,10 +35,10 @@ Bron: https://linux.datanose.nl/index.php/Speciaal:AllePaginas
 - [x] Lineaire Algebra
 - [ ] Linux Distributies
 - [x] Linux/Eduroam
-- [ ] Linux/Installatie
-- [ ] Linux Installeren
+- [x] Linux/Installatie
+- [x] Linux Installeren
 - [ ] Linux/Na de installatie
-- [ ] Linux/Voorbereiding
+- [x] Linux/Voorbereiding
 - [ ] MacOS/eduroam
 - [ ] MacOS/Voorbereiding
 - [ ] MacOS/VPN
@@ -46,13 +46,13 @@ Bron: https://linux.datanose.nl/index.php/Speciaal:AllePaginas
 - [ ] Mac OS X/Voorbereiding
 - [ ] Mac OS X/VPN
 - [ ] Matlab
-- [ ] Microsoft Fast Start-up
+- [x] Microsoft Fast Start-up
 - [ ] Microsoft Secure Boot
 - [ ] Microsoft Windows/Eduroam
-- [ ] Moderne Databases
+- [x] Moderne Databases
 - [x] Multimedia
-- [ ] Native Command Queuing
-- [ ] Numerical Recipes Project
+- [x] Native Command Queuing
+- [x] Numerical Recipes Project
 - [ ] Printen
 - [ ] Problem Solving and Search
 - [x] Programmeertalen
@@ -60,9 +60,9 @@ Bron: https://linux.datanose.nl/index.php/Speciaal:AllePaginas
 - [ ] Reflectie op de digitale cultuur
 - [ ] Shell
 - [ ] Shell script
-- [ ] Statistisch redeneren
+- [x] Statistisch redeneren
 - [ ] Taaltheorie en Taalverwerking
-- [ ] UEFI
+- [x] UEFI
 - [ ] UvAvpn
 - [x] Webprogrammeren en Databases
 - [ ] Webtechnieken voor KI

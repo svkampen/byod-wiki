@@ -35,13 +35,13 @@ Installeer:
 * [dev-lang/go](https://packages.gentoo.org/package/dev-lang/go)
 * [dev-lang/swi-prolog](http://packages.gentoo.org/package/dev-lang/swi-prolog)
 
-### Mac OS X
+### Mac OS
 
 ```
 sudo port install go swi-prolog erlang haskell-platform
 ```
 
-Bash word behandelt vanuit de GNU implementatie, terwijl op OSX de "correcte" bsd implementatie draait. Hierdoor kan het voorkomen dat sommige dingen niet lekker werken, en dat je bepaalde "handige" flags en operators mist.
+Bash word behandelt vanuit de GNU implementatie, terwijl op Mac OS de "correcte" bsd implementatie draait. Hierdoor kan het voorkomen dat sommige dingen niet lekker werken, en dat je bepaalde "handige" flags en operators mist.
 Wil je hier alsnog gebruik van maken kan je bash en de GNU coreutils via macports installeren.
 ```
 sudo port install bash coreutils

@@ -17,4 +17,4 @@ Password | `<wachtwoord>`
 
 [^1]: Select from file... > Other locations (links) > Computer > navigeer naar /etc/ssl/certs en selecteer USERTrust_RSA_Certification_Authority.pem
 
-![WiFi instellingen Ubuntu 20.04](./20.04-wifi.png)
+![WiFi instellingen Ubuntu 20.04](./2004-wifi.png)
