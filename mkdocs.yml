@@ -13,6 +13,10 @@ theme:
   logo: assets/uva.png
   favicon: assets/uva.png
   language: nl
+  features:
+    - navigation.tabs # Show top level sections as tabs in navbar
+    - navigation.sections # Show second level sections in bold, without requiring a click to expand
+    - navigation.indexes # Do not show index pages separately
   palette:
     - scheme: default
       primary: red # TODO Use UvA red color https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-colors
