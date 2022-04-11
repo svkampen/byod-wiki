@@ -10,3 +10,5 @@ markdown_extensions:
   - pymdownx.superfences
 theme:
   name: material
+  logo: assets/uva.png
+  favicon: assets/uva.png
