@@ -3,14 +3,14 @@ Bron: https://linux.datanose.nl/index.php/Speciaal:AllePaginas
 - [x] Algoritmen en Complexiteit
 - [x] Architectuur en Computerorganisatie
 - [x] Automaten en Formele Talen
-- [ ] Backups
+- [x] Backups
 - [ ] Beeldbewerken
 - [x] Besturingssystemen
-- [ ] Bitlocker
-- [ ] BitLocker
+- [x] Bitlocker
+- [x] BitLocker
 - [ ] Cognitive Modelling
 - [x] Common problems
-- [ ] Concurrency en Parallel Programmeren
+- [x] Concurrency en Parallel Programmeren
 - [ ] Contact
 - [ ] Continue Wiskunde en Statistiek
 - [x] Datastructuren
@@ -24,7 +24,7 @@ Bron: https://linux.datanose.nl/index.php/Speciaal:AllePaginas
 - [ ] Inleiding Cognitieve Psychologie
 - [ ] Inleiding Kunstmatige Intelligentie
 - [ ] Inleiding Logica
-- [ ] Inleiding Programmeren
+- [x] Inleiding Programmeren
 - [ ] Introductie in Programmeren
 - [ ] Kennissystemen
 - [x] Known issues
@@ -39,13 +39,13 @@ Bron: https://linux.datanose.nl/index.php/Speciaal:AllePaginas
 - [x] Linux Installeren
 - [x] Linux/Na de installatie
 - [x] Linux/Voorbereiding
-- [ ] MacOS/eduroam
-- [ ] MacOS/Voorbereiding
-- [ ] MacOS/VPN
+- [x] MacOS/eduroam
+- [x] MacOS/Voorbereiding
+- [x] MacOS/VPN
 - [x] Mac OS X/eduroam
 - [x] Mac OS X/Voorbereiding
 - [x] Mac OS X/VPN
-- [ ] Matlab
+- [x] Matlab
 - [x] Microsoft Fast Start-up
 - [ ] Microsoft Secure Boot
 - [ ] Microsoft Windows/Eduroam
@@ -56,13 +56,13 @@ Bron: https://linux.datanose.nl/index.php/Speciaal:AllePaginas
 - [ ] Printen
 - [ ] Problem Solving and Search
 - [x] Programmeertalen
-- [ ] Python
+- [x] Python
 - [ ] Reflectie op de digitale cultuur
 - [ ] Shell
 - [x] Shell script
 - [x] Statistisch redeneren
 - [ ] Taaltheorie en Taalverwerking
 - [x] UEFI
-- [ ] UvAvpn
+- [x] UvAvpn
 - [x] Webprogrammeren en Databases
 - [ ] Webtechnieken voor KI
