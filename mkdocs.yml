@@ -12,6 +12,7 @@ theme:
   name: material
   logo: assets/uva.png
   favicon: assets/uva.png
+  language: nl
   palette:
     - scheme: default
       primary: red # TODO Use UvA red color https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/#custom-colors
