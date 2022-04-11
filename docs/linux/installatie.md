@@ -100,3 +100,31 @@ Daarna zal de installatie beginnen. Dit zal ongeveer een kwartier tot een uur du
 
 Tijdens het herstarten zal een melding verschijnen waarin staat dat je het installatiemedium moet verwijderen. Verwijder de USB-stick, en druk dan op de Enter-toets. Ubuntu zal dan opstarten.
 
+## Perform MOK management
+Na de installatie is het mogelijk dat je een scherm krijgt met de titel "Perform MOK management" (zo niet kom je direct in GRUB terecht). Hierbij moet je kiezen voor de optie "Enroll MOK".
+
+![MOK enroll stap 1](./mok-enroll-1.png)
+
+Kies vervolgens voor "continue".
+
+![MOK enroll stap 2](./mok-enroll-2.png)
+
+Kies voor "yes", en voer het wachtwoord in dat je tijdens de installatie bij Configure Secure Boot hebt ingevuld. Het wachtwoord is onzichtbaar tijdens het invoeren; kijk dus niet gek op als er niets verschijnt. Als je denkt het verkeerd getypt te hebben kan je het opnieuw proberen door backspace een aantal keer in te drukken.
+
+![MOK enroll stap 3](./mok-enroll-3.png)
+
+Hierna kies je de optie "Reboot".
+
+![MOK enroll stap 4](./mok-enroll-4.png)
+
+Vervolgens kom je als normaal in GRUB.
+
+## GRUB
+Je komt na het opstarten als het goed is in GRUB, waar je kunt kiezen om Ubuntu of Windows op te starten. Als je Ubuntu kiest, of lang genoeg wacht, start Ubuntu op. Je kunt nu inloggen en krijgt een "What's new in Ubuntu"-scherm te zien. Hierin wordt gevraagd of je Livepatch wilt aanzetten (kan, maar hoeft niet) en of je enkele systeeminformatie door wilt sturen naar Canonical om Ubuntu te verbeteren. Je kan even naar het rapport kijken; het bevat geen gevoelige informatie, maar voel je vrij het uit te zetten.
+
+## Eduroam op Linux
+Verbind nu met eduroam zoals beschreven op de [Eduroam](./eduroam.md) pagina. Het open netwerk is langzamer, onveilig en geeft je geen toegang tot diensten die alleen binnen de UvA beschikbaar zijn.
+
+## Softwareinstallatie
+Via het [shell script](./shell-script.md) kan je automatisch benodigde software installeren.
+

@@ -37,14 +37,14 @@ Bron: https://linux.datanose.nl/index.php/Speciaal:AllePaginas
 - [x] Linux/Eduroam
 - [x] Linux/Installatie
 - [x] Linux Installeren
-- [ ] Linux/Na de installatie
+- [x] Linux/Na de installatie
 - [x] Linux/Voorbereiding
 - [ ] MacOS/eduroam
 - [ ] MacOS/Voorbereiding
 - [ ] MacOS/VPN
-- [ ] Mac OS X/eduroam
-- [ ] Mac OS X/Voorbereiding
-- [ ] Mac OS X/VPN
+- [x] Mac OS X/eduroam
+- [x] Mac OS X/Voorbereiding
+- [x] Mac OS X/VPN
 - [ ] Matlab
 - [x] Microsoft Fast Start-up
 - [ ] Microsoft Secure Boot
@@ -59,7 +59,7 @@ Bron: https://linux.datanose.nl/index.php/Speciaal:AllePaginas
 - [ ] Python
 - [ ] Reflectie op de digitale cultuur
 - [ ] Shell
-- [ ] Shell script
+- [x] Shell script
 - [x] Statistisch redeneren
 - [ ] Taaltheorie en Taalverwerking
 - [x] UEFI
