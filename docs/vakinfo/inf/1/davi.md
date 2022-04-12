@@ -23,7 +23,7 @@ pacman -S base-devel
 
 Installeer [sys-devel/gcc](http://packages.gentoo.org/package/sys-devel/gcc) en [sys-devel/make](http://packages.gentoo.org/package/sys-devel/make).
 
-### Mac OS X
+### macOS
 
 Installeer Xcode en de CLI tools.
 

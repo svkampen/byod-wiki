@@ -29,7 +29,7 @@ Installeer [app-text/texlive](http://packages.gentoo.org/package/app-text/texliv
 sudo yum install texlive
 ```
 
-### Mac OS X
+### macOS
 
 Installeer [mactex](https://www.tug.org/mactex/)
 

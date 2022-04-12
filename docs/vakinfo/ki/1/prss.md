@@ -25,7 +25,7 @@ sudo pacman -S swi-prolog
 
 Installeer [dev-lang/swi-prolog](http://packages.gentoo.org/package/dev-lang/swi-prolog).
 
-### Mac OS X
+### macOS
 
 ```
 sudo port install swi-prolog

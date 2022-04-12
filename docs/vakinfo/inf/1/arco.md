@@ -29,7 +29,7 @@ sudo yum install bison
 ### Gentoo
 Installeer [dev-java/oracle-jre-bin](http://packages.gentoo.org/package/dev-java/oracle-jre-bin) en [sys-devel/bison](http://packages.gentoo.org/package/sys-devel/bison).
 
-### Mac OS X
+### macOS
 ```
 sudo port install bison
 ```

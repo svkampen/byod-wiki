@@ -26,7 +26,7 @@ sudo yum install git
 
 Installeer [dev-vcs/git](http://packages.gentoo.org/package/dev-vcs/git).
 
-### Mac OS X
+### macOS
 
 Git wordt standaard met de command line tools meegeleverd. Mocht je een nieuwere versie willen, dan kun je die installeren m.b.v. MacPorts:
 
