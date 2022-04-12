@@ -4,33 +4,33 @@ Bron: https://linux.datanose.nl/index.php/Speciaal:AllePaginas
 - [x] Architectuur en Computerorganisatie
 - [x] Automaten en Formele Talen
 - [x] Backups
-- [ ] Beeldbewerken
+- [x] Beeldbewerken
 - [x] Besturingssystemen
 - [x] Bitlocker
 - [x] BitLocker
-- [ ] Cognitive Modelling
+- [x] Cognitive Modelling
 - [x] Common problems
 - [x] Concurrency en Parallel Programmeren
-- [ ] Contact
-- [ ] Continue Wiskunde en Statistiek
+- [x] Contact
+- [x] Continue Wiskunde en Statistiek
 - [x] Datastructuren
 - [x] Discrete Wiskunde en Logica
 - [ ] Dual-boot Problemen
 - [x] FAQ
-- [ ] Filosofie en AI
+- [x] Filosofie en AI
 - [x] Git
 - [x] Hoofdpagina
-- [ ] Inleiding Coginitieve Psychologie
-- [ ] Inleiding Cognitieve Psychologie
-- [ ] Inleiding Kunstmatige Intelligentie
-- [ ] Inleiding Logica
+- [x] Inleiding Coginitieve Psychologie
+- [x] Inleiding Cognitieve Psychologie
+- [x] Inleiding Kunstmatige Intelligentie
+- [x] Inleiding Logica
 - [x] Inleiding Programmeren
-- [ ] Introductie in Programmeren
-- [ ] Kennissystemen
+- [x] Introductie in Programmeren
+- [x] Kennissystemen
 - [x] Known issues
-- [ ] Language, Speech and Dialogue Processing
+- [x] Language, Speech and Dialogue Processing
 - [x] LaTeX
-- [ ] Leren
+- [x] Leren
 - [x] Lineaire algebra
 - [x] Lineaire Algebra
 - [ ] Linux Distributies
@@ -54,15 +54,15 @@ Bron: https://linux.datanose.nl/index.php/Speciaal:AllePaginas
 - [x] Native Command Queuing
 - [x] Numerical Recipes Project
 - [ ] Printen
-- [ ] Problem Solving and Search
+- [x] Problem Solving and Search
 - [x] Programmeertalen
 - [x] Python
-- [ ] Reflectie op de digitale cultuur
+- [x] Reflectie op de digitale cultuur
 - [ ] Shell
 - [x] Shell script
 - [x] Statistisch redeneren
-- [ ] Taaltheorie en Taalverwerking
+- [x] Taaltheorie en Taalverwerking
 - [x] UEFI
 - [x] UvAvpn
 - [x] Webprogrammeren en Databases
-- [ ] Webtechnieken voor KI
+- [x] Webtechnieken voor KI

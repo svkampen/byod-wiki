@@ -6,6 +6,12 @@
 sudo apt install python3
 ```
 
+## Jupyter notebook
+
+```
+sudo apt install jupyter-notebook
+```
+
 ## Packages
 
 Voor veel vakken zul je extra packages nodig hebben, zoals bijvoorbeeld `numpy`, `scipy`, `pandas` of `sklearn`. Er zijn twee methods om packages te installeren.

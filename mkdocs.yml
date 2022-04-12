@@ -80,7 +80,7 @@ nav:
         - 'Architectuur en Computerorganisatie': 'vakinfo/inf/1/arco.md'
         - 'Datastructuren en Algoritmen': 'vakinfo/inf/1/davi.md'
         - 'Discrete Wiskunde en Logica': 'vakinfo/inf/1/diwl.md'
-        - 'Webprogrammeren en Databases': 'vakinfo/inf/1/wdvi.md'
+        - 'Webtechnologie': 'vakinfo/inf/1/webt.md'
         - 'Lineaire Algebra': 'vakinfo/inf/1/lial.md'
         - 'Programmeertalen': 'vakinfo/inf/1/prog.md'
         - 'Automaten en Formele Talen': 'vakinfo/inf/1/auft.md'
@@ -97,3 +97,18 @@ nav:
         - 'Reflectie op de Digitale Samenleving': 'vakinfo/inf/2/rods.md'
         - 'Introduction to Computer Vision': 'vakinfo/inf/2/itcv.md'
         - 'Project Software Engineering': 'vakinfo/inf/2/prse.md'
+    - 'Kunstmatige Intelligentie':
+      - 'Jaar 1':
+        - 'Inleiding Kunstmatige Intelligentie': 'vakinfo/ki/1/inki.md'
+        - 'Problem Solving and Search': 'vakinfo/ki/1/prss.md'
+        - 'Introductie in Programmeren': 'vakinfo/ki/1/inip.md'
+        - 'Introductie Logica': 'vakinfo/ki/1/inlo.md'
+        - 'Webtechnologie': 'vakinfo/ki/1/webt.md'
+        - 'Lineaire Algebra': 'vakinfo/ki/1/lial.md'
+        - 'Inleiding Cognitieve Psychologie': 'vakinfo/ki/1/incp.md'
+        - 'Taaltheorie en Taalverwerking': 'vakinfo/ki/1/tata.md'
+      - 'Jaar 2':
+        - 'Leren': 'vakinfo/ki/2/lere.md'
+        - 'Cognitive Modelling': 'vakinfo/ki/2/como.md'
+      - 'Jaar 3':
+        - 'Language, Speech and Dialogue Processing': 'vakinfo/ki/3/lsdp.md'
