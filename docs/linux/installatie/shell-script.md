@@ -1,5 +1,8 @@
 # Shell script
 
+!!! hint "Internetverbinding"
+    Als je net Linux hebt geïnstalleerd wil je misschien eerst [verbinden met eduroam](../eduroam.md).
+
 ## Gebruik van het script
 
 Open allereerst een terminal: Ctrl + Alt + T
