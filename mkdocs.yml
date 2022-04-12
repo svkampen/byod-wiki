@@ -35,3 +35,53 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Licht thema
+
+# Manual navigation to change ordering and use correct capitalization in words like macOS
+nav:
+  - 'Hoofdpagina': 'index.md'
+  - 'Software':
+    - 'Software': 'software/index.md'
+    - 'Git': 'software/git.md'
+    - 'Python': 'software/python.md'
+    - 'LaTeX': 'software/latex.md'
+    - 'Matlab': 'software/matlab.md'
+  - 'Linux':
+    - 'Linux': 'linux/index.md'
+    - 'Eduroam': 'linux/eduroam.md'
+    - 'UvA VPN': 'linux/vpn.md'
+    - 'Backups': 'linux/backups.md'
+    - 'Installatie':
+      - 'Installatie': 'linux/installatie/index.md'
+      - 'Shell Script': 'linux/installatie/shell-script.md'
+      - 'BitLocker': 'linux/installatie/bitlocker.md'
+      - 'Veelvoorkomende Problemen': 'linux/installatie/veelvoorkomende-problemen.md'
+  - 'macOS':
+    - 'macOS': 'mac-os/index.md'
+    - 'Eduroam': 'mac-os/eduroam.md'
+    - 'Uva VPN': 'mac-os/vpn.md'
+    - 'Installatie': 'mac-os/installatie.md'
+  - 'Vakinformatie':
+    - 'Vakinformatie': 'vakinformatie/index.md'
+    - 'Informatica':
+      - 'Jaar 1':
+        - 'Inleiding Programmeren': 'vakinformatie/informatica/jaar-1/inleiding-programmeren.md'
+        - 'Architectuur en Computerorganisatie': 'vakinformatie/informatica/jaar-1/architectuur-en-computerorganisatie.md'
+        - 'Datastructuren en Algoritmen': 'vakinformatie/informatica/jaar-1/datastructuren-en-algoritmen.md'
+        - 'Discrete Wiskunde en Logica': 'vakinformatie/informatica/jaar-1/discrete-wiskunde-en-logica.md'
+        - 'Webprogrammeren en Databases': 'vakinformatie/informatica/jaar-1/webprogrammeren-en-databases.md'
+        - 'Lineaire Algebra': 'vakinformatie/informatica/jaar-1/lineaire-algebra.md'
+        - 'Programmeertalen': 'vakinformatie/informatica/jaar-1/programmeertalen.md'
+        - 'Automaten en Formele Talen': 'vakinformatie/informatica/jaar-1/automaten-en-formele-talen.md'
+        - 'Besturingssystemen': 'vakinformatie/informatica/jaar-1/besturingssystemen.md'
+        - 'Multimedia': 'vakinformatie/informatica/jaar-1/multimedia.md'
+      - 'Jaar 2':
+        - 'Moderne Databases': 'vakinformatie/informatica/jaar-2/moderne-databases.md'
+        - 'Networks and Network Security': 'vakinformatie/informatica/jaar-2/networks-and-network-security.md'
+        - 'Algoritmen en Complexiteit': 'vakinformatie/informatica/jaar-2/algoritmen-en-complexiteit.md'
+        - 'Distributed and Parallel Programming': 'vakinformatie/informatica/jaar-2/distributed-and-parallel-programming.md'
+        - 'Numerical Recipes Project': 'vakinformatie/informatica/jaar-2/numerical-recipes-project.md'
+        - 'Introduction Computational Science': 'vakinformatie/informatica/jaar-2/introduction-computational-science.md'
+        - 'Statistisch Redeneren': 'vakinformatie/informatica/jaar-2/statistisch-redeneren.md'
+        - 'Reflectie op de Digitale Samenleving': 'vakinformatie/informatica/jaar-2/reflectie-op-de-digitale-samenleving.md'
+        - 'Introduction to Computer Vision': 'vakinformatie/informatica/jaar-2/introduction-to-computer-vision.md'
+        - 'Project Software Engineering': 'vakinformatie/informatica/jaar-2/project-software-engineering.md'

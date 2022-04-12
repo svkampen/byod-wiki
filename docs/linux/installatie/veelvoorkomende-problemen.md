@@ -42,7 +42,7 @@ Zet de laptop uit en weer aan, als het goed is wordt dan de rtl8821ce-driver gel
 * Nu zou de Linux-installer de disk wel moeten herkennen.
 
 ## Bitlocker staat aan
-Zie [het artikel over BitLocker](../bitlocker.md).
+Zie [het artikel over BitLocker](./bitlocker.md).
 
 ## Grub start niet op (systeem boot direct naar windows)
 
