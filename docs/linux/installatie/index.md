@@ -6,7 +6,7 @@ Je zal een USB-stick van ten minste 4 GiB nodig hebben.
 Je laptop zal meerdere keren herstarten. Je kan deze pagina openen op je mobiel zodat je de instructies niet steeds hoeft op te zoeken.
 
 ## Troubleshooting
-Gaat er iets mis tijdens of na de installatie? Kijk dan naar [de pagina met veelvoorkomende problemen](./veelvoorkomende-problemen.md), vraag om hulp of stuur (als je thuis bent) een mailtje naar `laptops-fnwi@uva.nl`. Tijdens de introductiedag is er een ruimte beschikbaar voor als de installatie uitloopt, als je niet weet waar dit is kan je dit aan een assistent vragen.
+Gaat er iets mis tijdens of na de installatie? Kijk dan naar [de pagina met veelvoorkomende problemen](./problemen.md), vraag om hulp of stuur (als je thuis bent) een mailtje naar `laptops-fnwi@uva.nl`. Tijdens de introductiedag is er een ruimte beschikbaar voor als de installatie uitloopt, als je niet weet waar dit is kan je dit aan een assistent vragen.
 
 ## USB-voorbereiding
 In deze stap download je het ISO-bestand voor Ubuntu desktop, en zet je deze op de usb-stick.

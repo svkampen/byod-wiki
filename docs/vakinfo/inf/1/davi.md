@@ -1,6 +1,6 @@
-# Datastructuren en Algoritmen
+# Datastructuren
 
-Voor het vak Datastructuren en Algoritmen heb je een omgeving nodig waarin je met Makefiles kunt werken en C-code kunt compileren.
+Voor het vak Datastructuren heb je een omgeving nodig waarin je met Makefiles kunt werken en C-code kunt compileren.
 
 ## Benodigde Software
 
