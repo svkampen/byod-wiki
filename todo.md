@@ -15,7 +15,7 @@ Bron: https://linux.datanose.nl/index.php/Speciaal:AllePaginas
 - [x] Continue Wiskunde en Statistiek
 - [x] Datastructuren
 - [x] Discrete Wiskunde en Logica
-- [ ] Dual-boot Problemen
+- [x] Dual-boot Problemen
 - [x] FAQ
 - [x] Filosofie en AI
 - [x] Git
@@ -47,13 +47,13 @@ Bron: https://linux.datanose.nl/index.php/Speciaal:AllePaginas
 - [x] Mac OS X/VPN
 - [x] Matlab
 - [x] Microsoft Fast Start-up
-- [ ] Microsoft Secure Boot
+- [x] Microsoft Secure Boot
 - [ ] Microsoft Windows/Eduroam
 - [x] Moderne Databases
 - [x] Multimedia
 - [x] Native Command Queuing
 - [x] Numerical Recipes Project
-- [ ] Printen
+- [x] Printen
 - [x] Problem Solving and Search
 - [x] Programmeertalen
 - [x] Python
