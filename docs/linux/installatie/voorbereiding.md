@@ -19,13 +19,14 @@ Zorg allereerst dat je een lege USB-stick van minstens 4 GiB hebt en voer vervol
 *Fast start-up* is een techniek om het opstarten van Windows te versnellen, door bij het afsluiten na het beëindigen van de gebruikerssessie in sluimerstand te gaan, waarbij de systeemstaat naar de harde schijf wordt geschreven om ingeladen te worden wanneer de computer weer opstart. Fast start-up (en sluimerstand in het algemeen) maakt het onveilig om naar je Windows-partitie te schrijven vanuit Linux. Tijdens de Ubuntu installer wordt de Windows partitie verkleind om ruimte te maken voor Ubuntu, dus is het nodig om fast start-up uit te schakelen.
 
 Open Settings (via ⚙️ in Start), en ga naar:
-* `System` / `Systeem`
-* `Power & sleep` / `Energiebeheer & slaapstand` (links)
-* `Additional power settings` / `Extra energieopties` (klein linkje rechts)
-* `Choose what the power buttons do` / `Kies wat de aan- en uitknoppen doen` (klein linkje links)
-* `Change settings that are currently unavailable` (link)
-* Scroll naar beneden totdat je een lijstje met opties ziet, en schakel dan `Turn on fast start-up (recommended)` uit.
-* Tenslotte klik je dan op `Save Changes` om het te bevestigen.
+
+1. `System` / `Systeem`
+2. `Power & sleep` / `Energiebeheer & slaapstand` (links)
+3. `Additional power settings` / `Extra energieopties` (klein linkje rechts)
+4. `Choose what the power buttons do` / `Kies wat de aan- en uitknoppen doen` (klein linkje links)
+5. `Change settings that are currently unavailable` (link)
+6. Scroll naar beneden totdat je een lijstje met opties ziet, en schakel dan `Turn on fast start-up (recommended)` uit.
+7. Tenslotte klik je dan op `Save Changes` om het te bevestigen.
 
 ## BitLocker
 In Windows kan je via het zoekmenu de BitLocker-instellingen tevoorschijn toveren. Zoek op *BitLocker* of *device encryption* (Nederlands: *apparaatversleuteling*). Hier is in te zien of BitLocker aanstaat. Zie de pagina over [BitLocker](./bitlocker.md) voor meer informatie. Indien nodig, staat er ook wat je in dit geval moet doen.
