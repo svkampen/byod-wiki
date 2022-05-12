@@ -62,7 +62,7 @@ Booten met `nomodeset` als kernel argument en switchen naar de Nvidia driver ipv
 * Tijdens het opstarten in GRUB waar de <code>Ubuntu</code> entry geselecteerd staat, druk op <code>e</code>.
 * Navigeer met pijltjestoetsen naar de regel <code>GRUB_CMDLINE_LINUX_DEFAULT</code> en voeg <code>nomodeset</code> toe aan de lijst van kernel parameters. Dit wordt dus bijvoorbeeld <code>GRUB_CMDLINE_LINUX_DEFAULT="quiet splash nomodeset"</code>
 * Als Ubuntu opgestart is, open een terminal (Ctrl+Alt+T) en typ `apt list 'nvidia-driver-*'`
-* Kies de hoogste nvidia driver versie en installeer deze, bijvoorbeeld `sudo apt install nvidia-driver-470`
+* Kies de hoogste nvidia driver versie en installeer deze, bijvoorbeeld `sudo apt install nvidia-driver-510`
 * Start opnieuw op
 
 ## Flickering met AMD GPU tijdens installer
