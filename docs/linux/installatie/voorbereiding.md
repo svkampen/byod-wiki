@@ -7,7 +7,7 @@ Gaat er iets mis tijdens of na de installatie? Kijk dan naar [de pagina met veel
 In deze stap download je het ISO-bestand voor Ubuntu desktop, en zet je deze op de usb-stick.
 Zorg allereerst dat je een lege USB-stick van minstens 4 GiB hebt en voer vervolgens de volgende stappen uit:
 
-1. Download het ISO-bestand van de 64-bit versie van Ubuntu 20.04 via de [Ubuntu website](https://ubuntu.com/download/desktop/thank-you?version=20.04.3&architecture=amd64).
+1. Download het ISO-bestand van de 64-bit versie van Ubuntu 22.04 via de [directe link](https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso) of de [torrent](https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso.torrent).
 2. Plug de usb-stick in.
 3. Download het programma [USBWriter](http://sourceforge.net/projects/usbwriter/). USBWriter is een klein programma waarmee je de ISO naar de usb-stick kan schrijven. Na het downloaden pak je het .zip-bestand uit door rechts te klikken op het bestand, en dan "Alles uitpakken" te kiezen. Start daarna USBWriter.exe op.
 4. Selecteer als "Source" het zojuist gedownloade ISO-bestand.
