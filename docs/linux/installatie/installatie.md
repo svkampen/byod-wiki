@@ -38,7 +38,7 @@ Er zal je gevraagd worden om je toetsenbordlayout te kiezen. Als je gebruik wilt
 
 Het scherm daarna zal je vragen software van derden te installeren, vind deze aan. Waarschijnlijk wordt hier gevraagd wordt om een wachtwoord om Secure Boot te configureren. Dit wachtwoord heb je eenmalig nodig na de Ubuntu installatie bij "Perform MOK management". Het is niet het wachtwoord van je gebruikersaccount, het hoeft niet bijzonder veilig te zijn en je zult het wachtwoord hierna nooit meer nodig hebben.
 
-![Software](../../assets/2004-software.png)
+![Software](../../assets/2204-software.png)
 
 Mogelijk krijg je hierna een waarschuwing scherm met een melding dat hij Ubuntu niet kan installeren ivm Bitlocker of Intel RST. In het geval van Bitlocker, zie de [[Bitlocker]]-pagina.
 In het geval van Intel RST, vraag om hulp om dit uit te schakelen.
