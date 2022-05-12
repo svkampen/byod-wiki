@@ -62,6 +62,7 @@ nav:
     - 'Printen': 'linux/printen.md'
     - 'Backups': 'linux/backups.md'
     - 'Onderhoud': 'linux/onderhoud.md'
+    - 'Laptopkeuze': 'linux/laptopkeuze.md'
     - 'Installatie':
       - 'Overzicht': 'linux/installatie/index.md'
       - '1. Voorbereiding': 'linux/installatie/voorbereiding.md'
