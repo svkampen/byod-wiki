@@ -105,3 +105,12 @@ zodat een definitieve uitschakeling kan worden volbracht, volg de volgende stapp
 ### Permanent uitschakelen
 
 Verander nu hetzelfde in `/etc/default/grub` en voer `sudo update-grub` uit om de wijzigingen door te voeren.
+
+### Kan NVIDIA GPU niet uitschakelen via GUI
+
+![prime screenshot](../../assets/prime-intel-disabled.png)
+
+Schakel via de command line interface:
+```
+sudo prime-select intel
+```
