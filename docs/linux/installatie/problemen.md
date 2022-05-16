@@ -105,3 +105,19 @@ zodat een definitieve uitschakeling kan worden volbracht, volg de volgende stapp
 ### Permanent uitschakelen
 
 Verander nu hetzelfde in `/etc/default/grub` en voer `sudo update-grub` uit om de wijzigingen door te voeren.
+
+### Firefox installeren als deb in plaats van snap
+
+`sudo nano /etc/apt/preferences.d/firefox-no-snap`
+```
+Package: firefox*
+Pin: release o=Ubuntu*
+Pin-Priority: -1
+```
+
+```
+sudo apt remove firefox
+sudo snap remove firefox
+sudo add-apt-repository ppa:mozillateam/ppa
+sudo apt install firefox
+```
