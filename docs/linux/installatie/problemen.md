@@ -114,3 +114,18 @@ Schakel via de command line interface:
 ```
 sudo prime-select intel
 ```
+
+## Tijd is verkeerd in Windows of Linux
+
+Windows gebruikt lokale tijd voor de hardware klok van je laptop terwijl Linux UTC gebruikt. Je kan Linux instellen om lokale tijd te gebruiken, **of** Windows instellen om UTC tijd te gebruiken. Niet beide opties, dan heb je weer hetzelfde probleem.
+
+### Optie 1: Linux instellen om lokale tijd te gebruiken
+
+In een terminal:
+```
+timedatectl set-local-rtc 1 --adjust-system-clock
+```
+
+### Optie 2: Windows instellen om UTC tijd te gebruiken
+
+In registry editor, maak in `HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\TimeZoneInformation` een nieuwe DWORD genaamd `RealTimeIsUniversal` met waarde `1`.
