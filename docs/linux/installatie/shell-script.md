@@ -10,10 +10,9 @@ Open allereerst een terminal: Ctrl + Alt + T
 !!! hint
     In een terminal gebruik je niet Ctrl+C, Ctrl+V maar Ctrl+Shift+C, Ctrl+Shift+V
 
-Plak regel voor regel de onderstaande commando's in je terminal:
+Plak de volgende regel in je terminal, druk op enter en vul je wachtwoord in:
 ```
-wget https://gitlab-fnwi.uva.nl/byod/shell-scripts/raw/master/install-extras.sh
-sudo bash install-extras.sh
+sudo bash -c "$(wget -q -O - https://gitlab-fnwi.uva.nl/byod/shell-scripts/raw/master/install-extras.sh)"
 ```
 
 ## Pakketten
