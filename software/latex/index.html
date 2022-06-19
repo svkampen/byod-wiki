@@ -445,23 +445,30 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#installatie" class="md-nav__link">
-    Installatie
-  </a>
-  
-    <nav class="md-nav" aria-label="Installatie">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#overleaf" class="md-nav__link">
     Overleaf
   </a>
   
 </li>
+      
+        <li class="md-nav__item">
+  <a href="#lokale-installatie" class="md-nav__link">
+    Lokale installatie
+  </a>
+  
+    <nav class="md-nav" aria-label="Lokale installatie">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#debianubuntu" class="md-nav__link">
     Debian/Ubuntu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#macos" class="md-nav__link">
+    macOS
   </a>
   
 </li>
@@ -488,28 +495,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#macos" class="md-nav__link">
-    macOS
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#opensuse" class="md-nav__link">
-    openSUSE ===
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#documentatie" class="md-nav__link">
-    Documentatie
+    openSUSE
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentatie" class="md-nav__link">
+    Documentatie
+  </a>
   
 </li>
       
@@ -1763,23 +1763,30 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#installatie" class="md-nav__link">
-    Installatie
-  </a>
-  
-    <nav class="md-nav" aria-label="Installatie">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#overleaf" class="md-nav__link">
     Overleaf
   </a>
   
 </li>
+      
+        <li class="md-nav__item">
+  <a href="#lokale-installatie" class="md-nav__link">
+    Lokale installatie
+  </a>
+  
+    <nav class="md-nav" aria-label="Lokale installatie">
+      <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#debianubuntu" class="md-nav__link">
     Debian/Ubuntu
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#macos" class="md-nav__link">
+    macOS
   </a>
   
 </li>
@@ -1806,28 +1813,21 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#macos" class="md-nav__link">
-    macOS
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#opensuse" class="md-nav__link">
-    openSUSE ===
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#documentatie" class="md-nav__link">
-    Documentatie
+    openSUSE
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentatie" class="md-nav__link">
+    Documentatie
+  </a>
   
 </li>
       
@@ -1851,12 +1851,16 @@
 
 <h1 id="latex">LaTeX</h1>
 <p>LaTeX (uitgesproken: /leɪtɛk/ of /lɑːtɛk/) is een taal waarmee documenten geschreven en opgemaakt kunnen worden, m.a.w. hoe het document eruit komt te zien wordt bepaald door aanwijzingen in het bronbestand. Dit in tegenstelling tot bv. programma's zoals Microsoft Word of LibreOffice, waarbij de tekst opgemaakt kan worden door het gebruik van een daarvoor uitgebreide editor. LaTeX wordt niet alleen gebruikt voor het schrijven van academische werken, maar bijvoorbeeld ook voor het schrijven van wiskundige formules in Wikipedia artikels, of voor het maken van presentaties m.b.v. Beamer. Om LaTeX om te zetten naar bv. het Adobe PDF formaat of het PostScript formaat wordt er gebruik gemaakt van TeX Live.</p>
-<h2 id="installatie">Installatie</h2>
-<h3 id="overleaf">Overleaf</h3>
+<h2 id="overleaf">Overleaf</h2>
 <p>Met <a href="https://overleaf.com">Overleaf</a> is het mogelijk om makkelijk samen te werken. Hiervoor is geen lokale installatie nodig.</p>
+<h2 id="lokale-installatie">Lokale installatie</h2>
+<p>Omdat Overleaf geen installatie nodig heeft en samenwerken gemakkelijk maakt, wordt er weinig meer lokaal gewerkt met LaTeX bij de UvA. Mocht je het toch willen installeren, bijvoorbeeld zodat je offline in de trein kan werken, kan je dit doen. Reken er wel op dat je op jezelf aangewezen bent als het stuk gaat.</p>
+<p>Naast de LaTeX command line tools wil je waarschijnlijk ook een graphische editor installeren zoals <a href="https://apps.kde.org/kile/">Kile</a>.</p>
 <h3 id="debianubuntu">Debian/Ubuntu</h3>
 <div class="highlight"><pre><span></span><code>sudo apt install texlive-full
 </code></pre></div>
+<h3 id="macos">macOS</h3>
+<p>Installeer <a href="https://www.tug.org/mactex/">mactex</a></p>
 <h3 id="arch-linux">Arch Linux</h3>
 <div class="highlight"><pre><span></span><code>pacman -S texlive-most
 </code></pre></div>
@@ -1865,12 +1869,10 @@
 <h3 id="fedora">Fedora</h3>
 <div class="highlight"><pre><span></span><code>sudo yum install texlive
 </code></pre></div>
-<h3 id="macos">macOS</h3>
-<p>Installeer <a href="https://www.tug.org/mactex/">mactex</a></p>
-<h3 id="opensuse">openSUSE ===</h3>
+<h3 id="opensuse">openSUSE</h3>
 <div class="highlight"><pre><span></span><code>sudo zypper install texlive
 </code></pre></div>
-<h3 id="documentatie">Documentatie</h3>
+<h2 id="documentatie">Documentatie</h2>
 <ul>
 <li><a href="http://en.wikibooks.org/wiki/LaTeX">LaTeX wikibook</a></li>
 <li><a href="http://ctan.tug.org/tex-archive/info/lshort/english/lshort.pdf">The (Not So) Short Introduction to LaTeX2e</a></li>
@@ -1883,7 +1885,7 @@
   <small>
     
       Laatst geüpdatet:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">April 12, 2022 21:05:20</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">June 19, 2022 17:30:44</span>
       
     
   </small>

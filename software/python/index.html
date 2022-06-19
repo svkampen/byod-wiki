@@ -445,16 +445,23 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#packages" class="md-nav__link">
-    Packages
+  <a href="#packages-installeren" class="md-nav__link">
+    Packages installeren
   </a>
   
-    <nav class="md-nav" aria-label="Packages">
+    <nav class="md-nav" aria-label="Packages installeren">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#via-apt" class="md-nav__link">
     Via apt
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#via-pip" class="md-nav__link">
+    Via pip
   </a>
   
 </li>
@@ -465,22 +472,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#via-pip" class="md-nav__link">
-    Via pip
-  </a>
-  
-    <nav class="md-nav" aria-label="Via pip">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#virtual-environment" class="md-nav__link">
     Virtual environment
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1762,16 +1756,23 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#packages" class="md-nav__link">
-    Packages
+  <a href="#packages-installeren" class="md-nav__link">
+    Packages installeren
   </a>
   
-    <nav class="md-nav" aria-label="Packages">
+    <nav class="md-nav" aria-label="Packages installeren">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
   <a href="#via-apt" class="md-nav__link">
     Via apt
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#via-pip" class="md-nav__link">
+    Via pip
   </a>
   
 </li>
@@ -1782,22 +1783,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#via-pip" class="md-nav__link">
-    Via pip
-  </a>
-  
-    <nav class="md-nav" aria-label="Via pip">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
   <a href="#virtual-environment" class="md-nav__link">
     Virtual environment
   </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
@@ -1826,7 +1814,10 @@
 <h2 id="jupyter-notebook">Jupyter notebook</h2>
 <div class="highlight"><pre><span></span><code>sudo apt install jupyter-notebook
 </code></pre></div>
-<h2 id="packages">Packages</h2>
+<p>Om jupyter notebook te openen, navigeer je naar een map via de terminal en typ je:
+<div class="highlight"><pre><span></span><code>jupyter notebook
+</code></pre></div></p>
+<h2 id="packages-installeren">Packages installeren</h2>
 <p>Voor veel vakken zul je extra packages nodig hebben, zoals bijvoorbeeld <code>numpy</code>, <code>scipy</code>, <code>pandas</code> of <code>sklearn</code>. Er zijn twee methods om packages te installeren.</p>
 <h3 id="via-apt">Via apt</h3>
 <p>Dit is het snelst en meest eenvoudig en werkt gegarandeerd. Helaas zijn niet alle packages beschikbaar en zijn de versies wat ouder maar dit zou geen probleem moeten zijn voor onze opleidingen.</p>
@@ -1837,13 +1828,16 @@
 <p class="admonition-title">Een package vinden</p>
 <p>Je kan de command <code>apt list "python3-*"</code> gebruiken om een lijst te krijgen van alle beschikbare packages (dit zijn er veel!)</p>
 </div>
-<h2 id="via-pip">Via pip</h2>
+<h3 id="via-pip">Via pip</h3>
 <p>Pip is de package manager van Python zelf. Hiermee installeer je de nieuwste versie van een package van de <a href="https://pypi.org/">Python Package Index (pypi)</a>.</p>
+<p>Installeer packages als volgt:
+<div class="highlight"><pre><span></span><code>pip install --user &lt;package&gt;
+</code></pre></div></p>
 <div class="admonition warning">
-<p class="admonition-title">Virtual environment</p>
-<p>Voor nooit pip commando's uit buiten een virtual environment. Dit kan Python packages die nodig zijn voor het functioneren van je systeem overschrijven met nieuwere versies. Vaak gaat dit toevallig goed, maar niet altijd!</p>
+<p class="admonition-title">Site packages vs user packages</p>
+<p>Voor nooit pip commando's als root uit (met sudo). Dit kan Python packages die nodig zijn voor het functioneren van je systeem overschrijven met nieuwere versies. Vaak gaat dit toevallig goed, maar niet altijd!</p>
 </div>
-<h3 id="virtual-environment">Virtual environment</h3>
+<h2 id="virtual-environment">Virtual environment</h2>
 <p>Een virtual environment is een geisoleerde omgeving met zijn eigen Python packages. Installeer eerst ondersteuning voor virtual environments:
 <div class="highlight"><pre><span></span><code>sudo apt install python3-virtualenv
 </code></pre></div></p>
@@ -1867,7 +1861,7 @@
   <small>
     
       Laatst geüpdatet:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">April 12, 2022 21:01:54</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">June 19, 2022 17:30:44</span>
       
     
   </small>
