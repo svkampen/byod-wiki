@@ -1,9 +1,8 @@
-FROM python:3-slim AS builder
+FROM python:3 AS builder
 
-RUN apt-get update && \
-    apt-get install -y git
+COPY requirements.txt /
 
-RUN pip install mkdocs-material mkdocs-git-revision-date-localized-plugin
+RUN pip install -r /requirements.txt
 
 WORKDIR /tmp/build
 COPY . .

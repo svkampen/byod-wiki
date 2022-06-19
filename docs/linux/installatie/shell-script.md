@@ -12,7 +12,7 @@ Open allereerst een terminal: Ctrl + Alt + T
 
 Plak de volgende regel in je terminal, druk op enter en vul je wachtwoord in:
 ```
-sudo bash -c "$(wget -q -O - https://gitlab-fnwi.uva.nl/byod/shell-scripts/raw/master/install-extras.sh)"
+sudo bash -c "$(wget -q -O - https://raw.githubusercontent.com/UvA-FNWI/byod-scripts/master/install-extras.sh)"
 ```
 
 ## Pakketten
