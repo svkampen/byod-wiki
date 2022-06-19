@@ -13,7 +13,7 @@
     
     
       
-        <title>USB herstellen - BYOD Wiki</title>
+        <title>USB herstellen na dd - BYOD Wiki</title>
       
     
     
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              USB herstellen
+              USB herstellen na dd
             
           </span>
         </div>
@@ -721,12 +721,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          USB herstellen
+          USB herstellen na dd
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        USB herstellen
+        USB herstellen na dd
       </a>
       
         
@@ -745,15 +745,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ubuntu" class="md-nav__link">
-    Ubuntu
+  <a href="#ubuntu-disks" class="md-nav__link">
+    Ubuntu (Disks)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#windows" class="md-nav__link">
-    Windows
+  <a href="#windows-rufus" class="md-nav__link">
+    Windows (Rufus)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#windows-handmatig" class="md-nav__link">
+    Windows (Handmatig)
   </a>
   
 </li>
@@ -1710,15 +1717,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ubuntu" class="md-nav__link">
-    Ubuntu
+  <a href="#ubuntu-disks" class="md-nav__link">
+    Ubuntu (Disks)
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#windows" class="md-nav__link">
-    Windows
+  <a href="#windows-rufus" class="md-nav__link">
+    Windows (Rufus)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#windows-handmatig" class="md-nav__link">
+    Windows (Handmatig)
   </a>
   
 </li>
@@ -1742,8 +1756,12 @@
 
 
 <h1 id="usb-herstellen">USB herstellen</h1>
-<p>Door Linux op je USB stick te zetten heeft het een speciale partitieindeling gekregen waardoor het niet meer werkt om bestanden over te zetten tussen computers. Hier wordt beschreven hoe je dit ongedaan kunt maken. Dit kan vanuit Linux of Windows, maar vanuit Linux is makkelijker.</p>
-<h2 id="ubuntu">Ubuntu</h2>
+<div class="admonition hint">
+<p class="admonition-title">ISOHybrid</p>
+<p>De Ubuntu ISO is een zogenaamde "ISOHybrid" iso die met DD geschreven kan worden of op de klassieke ISO manier; bestanden kopiëren naar een FAT32 partitie. Bij het schrijven in ISO modus krijg je een enkele FAT32 partitie waar Windows wel mee overweg kan, in tegenstelling tot de meerdere partities die je krijgt bij dd modus. Om deze reden raden we ook aan om ISO modus te gebruiken.</p>
+</div>
+<p>Mocht je Linux op een USB-stick hebben gezet met <code>dd</code> (of dd-modus in Rufus), heeft het een speciale partitieindeling gekregen waardoor je de USB-stick niet meer normaal kan gebruiken. Hier wordt beschreven hoe je dit ongedaan kunt maken. Dit kan op verschillende manieren, vanuit Linux of Windows.</p>
+<h2 id="ubuntu-disks">Ubuntu (Disks)</h2>
 <p>Open eerst de 'Disks' app:</p>
 <p><img alt="zoeken naar disks app in gnome" src="../../../assets/2204-disks-search.png" /></p>
 <div class="admonition warning">
@@ -1759,7 +1777,10 @@
 <p><img alt="nieuwe partitie maken" src="../../../assets/2204-disks-new-partition-1.png" />
 <img alt="nieuwe partitie maken" src="../../../assets/2204-disks-new-partition-2.png" />
 <img alt="nieuwe partitie maken" src="../../../assets/2204-disks-new-partition-3.png" /></p>
-<h2 id="windows">Windows</h2>
+<h2 id="windows-rufus">Windows (Rufus)</h2>
+<p>Open Rufus, selecteer de USB-stick en selecteer <code>Non bootable</code> voor <code>Boot selection</code>. Druk vervolgens op <kbd>START</kbd>.</p>
+<p><img alt="rufus screenshot" src="../../../assets/rufus-non-bootable.png" /></p>
+<h2 id="windows-handmatig">Windows (Handmatig)</h2>
 <p>Open Run, bijvoorbeeld met de toetscombinatie <kbd>Win</kbd> + <kbd>R</kbd> en voor uit: <code>diskpart</code>.</p>
 <p><img alt="screenshot run box" src="../../../assets/win11-run-diskpart.png" /></p>
 <p>Gebruik <code>list disk</code> en <code>select disk &lt;n&gt;</code> om de juiste schijf de selecteren.</p>
@@ -1777,7 +1798,7 @@
   <small>
     
       Laatst geüpdatet:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">June 19, 2022 13:28:39</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">June 19, 2022 15:01:35</span>
       
     
   </small>
