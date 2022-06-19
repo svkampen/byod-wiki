@@ -18,7 +18,7 @@ ubuntu-security-status --unavailable
 
 ## Updaten naar een nieuwe Ubuntu versie
 
-Elke twee jaar komt Ubuntu met een nieuwe *long-term-support* (LTS) versie, met *interim* versies tussendoor. Op de UvA gebruiken we de nieuwste LTS die na het begin van het academisch jaar is uitbracht, momenteel is dat 20.04 (april 2020). De volgende versie wordt 22.04, de vorige was 18.04. De *interim* versies zijn bedoelt voor gebruikers die eerder nieuwe functies willen gebruiken. Deze versies worden niet ondersteund vanuit de UvA.
+Elke twee jaar komt Ubuntu met een nieuwe *long-term-support* (LTS) versie, met *interim* versies tussendoor. Op de UvA gebruiken we de nieuwste LTS die na het begin van het academisch jaar is uitbracht, momenteel is dat 22.04 (april 2022). De volgende versie wordt 24.04, de vorige was 20.04. De *interim* versies zijn bedoelt voor gebruikers die eerder nieuwe functies willen gebruiken. Deze versies worden niet ondersteund vanuit de UvA.
 
 Het is verstandig om deze versie te gebruiken. Oudere en nieuwere versies werken mogelijk niet met de frameworks die bij opdrachten geleverd worden. Ook stoppen uiteindelijk de beveiligingsupdates voor oudere versies. Gedurende je studie is het waarschijnlijk nodig dat je je Ubuntu installatie updatet naar een volgende versie.
 
