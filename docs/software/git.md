@@ -10,6 +10,14 @@ Git is een gedistribueerd versiebeheersysteem dat bestaat uit een verzameling aa
 sudo apt-get install git
 ```
 
+### macOS
+
+Git wordt standaard met de command line tools meegeleverd. Mocht je een nieuwere versie willen, dan kun je die installeren m.b.v. MacPorts:
+
+```
+sudo port install git
+```
+
 ### Arch Linux
 
 ```
@@ -25,14 +33,6 @@ sudo yum install git
 ### Gentoo
 
 Installeer [dev-vcs/git](http://packages.gentoo.org/package/dev-vcs/git).
-
-### macOS
-
-Git wordt standaard met de command line tools meegeleverd. Mocht je een nieuwere versie willen, dan kun je die installeren m.b.v. MacPorts:
-
-```
-sudo port install git
-```
 
 ### openSUSE
 ```
