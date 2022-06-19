@@ -27,12 +27,13 @@ Zodra je laptop is opgestart vanaf de USB-stick krijg je een keuzemenu te zien, 
 
 ![grub](../../assets/2204-usb-grub.png)
 
-Wanneer Ubuntu is opgestart is kies "Install Ubuntu" en volg de instructies om het te installeren.
-
 ## De Installatiewizard
+
 Als de installatiewizard is opgestart dan zal als eerste een taalkeuzemenu verschijnen. Hiermee wordt de taal van het besturingssysteem ingesteld dat we gaan installeren. Hier adviseren we ook om Engels te kiezen, omdat het dan makkelijker is om documentatie raad te plegen, hulp te vragen, etc.
 
-![Welcome](../../assets/2204-welcome.png)
+Kies "Install Ubuntu" en volg de instructies om het te installeren.
+
+![welcome](../../assets/2204-installer-welcome.png)
 
 Er zal je gevraagd worden om je toetsenbordlayout te kiezen. Als je gebruik wilt maken van de toetsencombinaties als " + e om het teken 'é' te vormen, kies dan "English (US) - English (US, intl., with dead keys)", anders kies voor English (US). Deze keuze is altijd later aan te passen en het is dan ook mogelijk om meerdere layouts toe te voegen.
 
@@ -45,7 +46,7 @@ Het scherm daarna zal je vragen software van derden te installeren, vind deze aa
 Mogelijk krijg je hierna een waarschuwing scherm met een melding dat hij Ubuntu niet kan installeren ivm Bitlocker of Intel RST. In het geval van Bitlocker, zie de [[Bitlocker]]-pagina.
 In het geval van Intel RST, vraag om hulp om dit uit te schakelen.
 
-![BitLocker](../../assets/2004-bitlocker.png)
+![BitLocker](../../assets/2204-bitlocker.png)
 
 In het scherm daarna zal je gevraagd worden hoe je Ubuntu precies wilt installeren. Selecteer hier de optie "Install Ubuntu alongside Windows Boot Manager".
 
