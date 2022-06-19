@@ -7,7 +7,7 @@ In Windows kan je via het zoekmenu de BitLocker-instellingen tevoorschijn tovere
 
 Ook is het te zien in de Ubuntu-installer; Deze zal tijdens de installer een waarschuwing geven als BitLocker aanstaat:
 
-![Ubuntu installer BitLocker warning](../../assets/2004-bitlocker.png)
+![Ubuntu installer BitLocker warning](../../assets/2204-bitlocker.png)
 
 
 ## Installeren met BitLocker uitgeschakeld (meest eenvoudig)
