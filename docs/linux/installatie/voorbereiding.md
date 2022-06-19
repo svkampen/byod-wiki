@@ -5,15 +5,20 @@ Gaat er iets mis tijdens of na de installatie? Kijk dan naar [de pagina met veel
 
 ## USB-voorbereiding
 In deze stap download je het ISO-bestand voor Ubuntu desktop, en zet je deze op de usb-stick.
-Zorg allereerst dat je een lege USB-stick van minstens 4 GiB hebt en voer vervolgens de volgende stappen uit:
+Zorg allereerst dat je een lege USB-stick van minstens 4 GiB hebt, en sluit deze aan op je computer.
 
-1. Download het ISO-bestand van de 64-bit versie van Ubuntu 20.04 via de [Ubuntu website](https://releases.ubuntu.com/20.04.4/ubuntu-20.04.4-desktop-amd64.iso).
-2. Plug de usb-stick in.
-3. Download het programma [USBWriter](http://sourceforge.net/projects/usbwriter/). USBWriter is een klein programma waarmee je de ISO naar de usb-stick kan schrijven. Na het downloaden pak je het .zip-bestand uit door rechts te klikken op het bestand, en dan "Alles uitpakken" te kiezen. Start daarna USBWriter.exe op.
-4. Selecteer als "Source" het zojuist gedownloade ISO-bestand.
-5. Selecteer je USB-stick als "Target" en klik op "Write". Bevestig dat je graag alle inhoud op de USB-stick wilt vernietigen.
+Download vervolgens het ISO-bestand van de 64-bit versie van Ubuntu 20.04 via de [Ubuntu website](https://releases.ubuntu.com/20.04.4/ubuntu-20.04.4-desktop-amd64.iso).
 
-![Screenshot USB writer](../../assets/usbwriter.png)
+Download het programma [Rufus](https://github.com/pbatard/rufus/releases/download/v3.18/rufus-3.18p.exe); een klein programma waarmee je de ISO naar de usb-stick kan schrijven, zonder handmatig partities te maken en bestanden te kopiëren.
+
+Nadat je Rufus hebt geopend:
+
+1. Selecteer je USB-stick (`Device`)
+2. Selecteer het Ubuntu ISO-bestand (<kbd>SELECT</kbd> knop).
+3. Zet `Partition scheme` op `GPT`
+4. Druk op <kbd>START</kbd> en dan twee keer <kbd>OK</kbd>
+
+![rufus](../../assets/rufus.png)
 
 ## Fast start-up uitschakelen
 *Fast start-up* is een techniek om het opstarten van Windows te versnellen, door bij het afsluiten na het beëindigen van de gebruikerssessie in sluimerstand te gaan, waarbij de systeemstaat naar de harde schijf wordt geschreven om ingeladen te worden wanneer de computer weer opstart. Fast start-up (en sluimerstand in het algemeen) maakt het onveilig om naar je Windows-partitie te schrijven vanuit Linux. Tijdens de Ubuntu installer wordt de Windows partitie verkleind om ruimte te maken voor Ubuntu, dus is het nodig om fast start-up uit te schakelen.
