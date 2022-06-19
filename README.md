@@ -1,6 +1,8 @@
 # BYOD Wiki
 
-## Local testing server
+## Lokale server
 ```
-docker compose -f docker-compose.dev.yaml up --build --force-recreate
+BUILDKIT_PROGRESS=plain docker compose -f docker-compose.dev.yaml up --build --force-recreate
 ```
+
+Server is nu toegankelijk op http://localhost:8080
