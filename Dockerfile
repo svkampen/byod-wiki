@@ -1,7 +1,4 @@
-FROM python:3-slim AS builder
-
-RUN apt-get update && \
-    apt-get install -y git
+FROM python:3 AS builder
 
 COPY requirements.txt /
 
