@@ -1,5 +1,5 @@
 # Installatie
 
-* [Voorbereiding](./voorbereiding.md)
-* [Installatie](./installatie.md)
-* [Shell script](./shell-script.md)
+1. [Voorbereiding](./voorbereiding.md)
+2. [Installatie](./installatie.md)
+3. [Shell script](./shell-script.md)

@@ -12,7 +12,12 @@ sudo apt install python3
 sudo apt install jupyter-notebook
 ```
 
-## Packages
+Om jupyter notebook te openen, navigeer je naar een map via de terminal en typ je:
+```
+jupyter notebook
+```
+
+## Packages installeren
 
 Voor veel vakken zul je extra packages nodig hebben, zoals bijvoorbeeld `numpy`, `scipy`, `pandas` of `sklearn`. Er zijn twee methods om packages te installeren.
 
@@ -28,14 +33,19 @@ sudo apt install python3-scipy python3-scipy
     Je kan de command `apt list "python3-*"` gebruiken om een lijst te krijgen van alle beschikbare packages (dit zijn er veel!)
 
 
-## Via pip
+### Via pip
 
 Pip is de package manager van Python zelf. Hiermee installeer je de nieuwste versie van een package van de [Python Package Index (pypi)](https://pypi.org/).
 
-!!! warning "Virtual environment"
-    Voor nooit pip commando's uit buiten een virtual environment. Dit kan Python packages die nodig zijn voor het functioneren van je systeem overschrijven met nieuwere versies. Vaak gaat dit toevallig goed, maar niet altijd!
+Installeer packages als volgt:
+```
+pip install --user <package>
+```
 
-### Virtual environment
+!!! warning "Site packages vs user packages"
+    Voor nooit pip commando's als root uit (met sudo). Dit kan Python packages die nodig zijn voor het functioneren van je systeem overschrijven met nieuwere versies. Vaak gaat dit toevallig goed, maar niet altijd!
+
+## Virtual environment
 
 Een virtual environment is een geisoleerde omgeving met zijn eigen Python packages. Installeer eerst ondersteuning voor virtual environments:
 ```

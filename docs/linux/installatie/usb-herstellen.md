@@ -1,8 +1,11 @@
 # USB herstellen
 
-Door Linux op je USB stick te zetten heeft het een speciale partitieindeling gekregen waardoor het niet meer werkt om bestanden over te zetten tussen computers. Hier wordt beschreven hoe je dit ongedaan kunt maken. Dit kan vanuit Linux of Windows, maar vanuit Linux is makkelijker.
+!!! hint "ISOHybrid"
+    De Ubuntu ISO is een zogenaamde "ISOHybrid" iso die met DD geschreven kan worden of op de klassieke ISO manier; bestanden kopiëren naar een FAT32 partitie. Bij het schrijven in ISO modus krijg je een enkele FAT32 partitie waar Windows wel mee overweg kan, in tegenstelling tot de meerdere partities die je krijgt bij dd modus. Om deze reden raden we ook aan om ISO modus te gebruiken.
 
-## Ubuntu
+Mocht je Linux op een USB-stick hebben gezet met `dd` (of dd-modus in Rufus), heeft het een speciale partitieindeling gekregen waardoor je de USB-stick niet meer normaal kan gebruiken. Hier wordt beschreven hoe je dit ongedaan kunt maken. Dit kan op verschillende manieren, vanuit Linux of Windows.
+
+## Ubuntu (Disks)
 
 Open eerst de 'Disks' app:
 
@@ -28,7 +31,12 @@ Nu maken we een nieuwe partitie en bestandssysteem in de lege ruimte:
 ![nieuwe partitie maken](../../assets/2204-disks-new-partition-3.png)
 
 
-## Windows
+## Windows (Rufus)
+Open Rufus, selecteer de USB-stick en selecteer `Non bootable` voor `Boot selection`. Druk vervolgens op <kbd>START</kbd>.
+
+![rufus screenshot](../../assets/rufus-non-bootable.png)
+
+## Windows (Handmatig)
 
 Open Run, bijvoorbeeld met de toetscombinatie <kbd>Win</kbd> + <kbd>R</kbd> en voor uit: `diskpart`.
 

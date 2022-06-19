@@ -70,7 +70,7 @@ nav:
       - '3. Shell script': 'linux/installatie/shell-script.md'
       - 'Veelvoorkomende Problemen': 'linux/installatie/problemen.md'
       - 'BitLocker': 'linux/installatie/bitlocker.md'
-      - 'USB herstellen': 'linux/installatie/usb-herstellen.md'
+      - 'USB herstellen na dd': 'linux/installatie/usb-herstellen.md'
   - 'macOS':
     - 'macOS': 'mac-os/index.md'
     - 'Eduroam': 'mac-os/eduroam.md'
