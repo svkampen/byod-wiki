@@ -611,6 +611,8 @@
         
           
         
+          
+        
       
       
         
@@ -740,6 +742,26 @@
     Installeren met BitLocker uitgeschakeld (meest eenvoudig)
   </a>
   
+    <nav class="md-nav" aria-label="Installeren met BitLocker uitgeschakeld (meest eenvoudig)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#windows-10" class="md-nav__link">
+    Windows 10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-11" class="md-nav__link">
+    Windows 11
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -773,6 +795,20 @@
   
 </nav>
       
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../usb-herstellen/" class="md-nav__link">
+        USB herstellen
+      </a>
     </li>
   
 
@@ -1732,6 +1768,26 @@
     Installeren met BitLocker uitgeschakeld (meest eenvoudig)
   </a>
   
+    <nav class="md-nav" aria-label="Installeren met BitLocker uitgeschakeld (meest eenvoudig)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#windows-10" class="md-nav__link">
+    Windows 10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#windows-11" class="md-nav__link">
+    Windows 11
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -1786,15 +1842,22 @@
 <p>Ook is het te zien in de Ubuntu-installer; Deze zal tijdens de installer een waarschuwing geven als BitLocker aanstaat:</p>
 <p><img alt="Ubuntu installer BitLocker warning" src="../../../assets/2004-bitlocker.png" /></p>
 <h2 id="installeren-met-bitlocker-uitgeschakeld-meest-eenvoudig">Installeren met BitLocker uitgeschakeld (meest eenvoudig)</h2>
-<p>Als je Ubuntu wilt installeren en niet al te veel geeft om BitLocker is het waarschijnlijk de makkelijkste manier om Ubuntu te installeren. Start Windows op, open het Settings scherm en onder about en klik op "Turn off" bij device encryption. BitLocker zal nu worden uitgeschakeld en je schijf zal worden ontsleuteld. Je krijgt een melding wanneer de ontsleuteling voltooid is, en het zal ook zichtbaar zijn in het BitLocker-configuratiescherm. Als de ontsleuteling voltooid is kan je Ubuntu op dezelfde manier installeren als normaal.</p>
+<p>Als je Ubuntu wilt installeren en niet al te veel geeft om BitLocker is het waarschijnlijk de makkelijkste manier om Ubuntu te installeren.</p>
+<h3 id="windows-10">Windows 10</h3>
+<p>Start Windows op, open het Settings scherm en onder about en klik op "Turn off" bij device encryption. BitLocker zal nu worden uitgeschakeld en je schijf zal worden ontsleuteld. Je krijgt een melding wanneer de ontsleuteling voltooid is, en het zal ook zichtbaar zijn in het BitLocker-configuratiescherm. Als de ontsleuteling voltooid is kan je Ubuntu op dezelfde manier installeren als normaal.</p>
 <p><img alt="BitLocker settings" src="../../../assets/bitlocker-settings.png" /></p>
+<h3 id="windows-11">Windows 11</h3>
+<p>In instellingen, zoek op 'BitLocker' en selecteer 'Manage BitLocker'.</p>
+<p><img alt="Zoeken op BitLocker in instellingen" src="../../../assets/win11-settings-search-bitlocker.png" /></p>
+<p>Zet vervolgens BitLocker uit:</p>
+<p><img alt="BitLocker uitzetten" src="../../../assets/win11-bitlocker-turn-off.png" /></p>
 <h2 id="installeren-met-bitlocker-ingeschakeld">Installeren met BitLocker ingeschakeld</h2>
 <h3 id="een-kopie-maken-van-de-bitlocker-herstelsleutel">Een kopie maken van de BitLocker-herstelsleutel</h3>
 <div class="admonition danger">
 <p class="admonition-title">Belangrijk</p>
 <p>Als je je BitLocker-herstelsleutel niet opslaat is het mogelijk dat je je versleutelde Windows-partitie niet kunt ontsleutelen. Bewaar deze dus goed!</p>
 </div>
-<p>Het is belangrijk een kopie te maken van je BitLocker-herstelsleutel. Deze kun je als het goed is vinden in je Microsoft-account via [https://account.microsoft.com/devices/recoverykey deze link]. Als deze hier niet te vinden is, kun je hem ook lokaal vinden: in het BitLocker-venster uit de sectie hierboven zie je het item "Bitlocker settings". Klik hierop, en klik op "Back-up maken van uw herstelsleutel". Na hierop te klikken kan je kiezen om de herstelsleutel op te slaan in een bestand of af te drukken. Kies voor de laatste optie, kies dan 'Microsoft Print to PDF' en sla ergens op de schijf het PDF'je op. Open deze dan en maak een foto met je telefoon, of e-mail het naar jezelf, or whatever.</p>
+<p>Het is belangrijk een kopie te maken van je BitLocker-herstelsleutel. Deze kun je als het goed is vinden in je Microsoft-account via <a href="https://account.microsoft.com/devices/recoverykey">deze link</a>. Als deze hier niet te vinden is, kun je hem ook lokaal vinden: in het BitLocker-venster uit de sectie hierboven zie je het item "Bitlocker settings". Klik hierop, en klik op "Back-up maken van uw herstelsleutel". Na hierop te klikken kan je kiezen om de herstelsleutel op te slaan in een bestand of af te drukken. Kies voor de laatste optie, kies dan 'Microsoft Print to PDF' en sla ergens op de schijf het PDF'je op. Open deze dan en maak een foto met je telefoon, of e-mail het naar jezelf, or whatever.</p>
 <p><img alt="BitLocker recovery sleutel exporteren" src="../../../assets/bitlocker-export-recovery.png" /></p>
 <h3 id="partitie-handmatig-verkleinen">Partitie handmatig verkleinen</h3>
 <p>Als je Ubuntu wilt installeren met BitLocker ingeschakeld, moet je enkele stappen vanuit Windows uitvoeren. Daarnaast vereist het op dit moment handmatige partitionering in de Ubuntu-installer.</p>
@@ -1808,7 +1871,7 @@
   <small>
     
       Laatst geüpdatet:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">April 12, 2022 18:57:15</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">June 19, 2022 12:40:47</span>
       
     
   </small>
@@ -1844,13 +1907,13 @@
       
       
         
-        <a href="../../../mac-os/" class="md-footer__link md-footer__link--next" aria-label="Volgende: macOS" rel="next">
+        <a href="../usb-herstellen/" class="md-footer__link md-footer__link--next" aria-label="Volgende: USB herstellen" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Volgende
               </span>
-              macOS
+              USB herstellen
             </div>
           </div>
           <div class="md-footer__button md-icon">
