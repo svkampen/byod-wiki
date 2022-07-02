@@ -23,27 +23,30 @@ De meeste UEFI-implementaties kennen een opstartmenu, waar je kan kiezen vanaf w
 
     Om op te starten vanaf een bepaald apparaat (zoals de Ubuntu-installatie-USB) klik je op `Use a device` en kies je het apparaat vanaf waar je op wilt starten. In het geval van een USB-stick verschilt de exacte naam, maar vaak zit "USB" of de naam van de fabrikant erin.
 
-Zodra je laptop is opgestart vanaf de USB-stick krijg je een keuzemenu te zien, met verschillende opties, kies hier de optie `Ubuntu` (gaat ook automatisch na een aantal seconden). Als het hierna mis gaat kan je proberen geforceerd opnieuw op te starten en `Ubuntu (safe graphics)` te selecteren in plaats van `Ubuntu`.
+Zodra je laptop is opgestart vanaf de USB-stick krijg je een keuzemenu te zien, met verschillende opties, kies hier de optie `Try or Install Ubuntu` (gaat ook automatisch na een aantal seconden). Als het hierna mis gaat kan je proberen geforceerd opnieuw op te starten en `Ubuntu (safe graphics)` te selecteren in plaats van `Ubuntu`.
 
-Wanneer Ubuntu is opgestart is kies "Install Ubuntu" en volg de instructies om het te installeren.
+![grub](../../assets/2204-usb-grub.png)
 
 ## De Installatiewizard
+
 Als de installatiewizard is opgestart dan zal als eerste een taalkeuzemenu verschijnen. Hiermee wordt de taal van het besturingssysteem ingesteld dat we gaan installeren. Hier adviseren we ook om Engels te kiezen, omdat het dan makkelijker is om documentatie raad te plegen, hulp te vragen, etc.
 
-![Welcome](../../assets/2004-welcome.png)
+Kies "Install Ubuntu" en volg de instructies om het te installeren.
+
+![welcome](../../assets/2204-installer-welcome.png)
 
 Er zal je gevraagd worden om je toetsenbordlayout te kiezen. Als je gebruik wilt maken van de toetsencombinaties als " + e om het teken 'é' te vormen, kies dan "English (US) - English (US, intl., with dead keys)", anders kies voor English (US). Deze keuze is altijd later aan te passen en het is dan ook mogelijk om meerdere layouts toe te voegen.
 
-![Keyboard](../../assets/2004-keyboard.png)
+![Keyboard](../../assets/2204-keyboard.png)
 
 Het scherm daarna zal je vragen software van derden te installeren, vink deze aan. Waarschijnlijk wordt hier gevraagd wordt om een wachtwoord om Secure Boot te configureren. Dit wachtwoord heb je eenmalig nodig na de Ubuntu installatie bij "Perform MOK management". Het is niet het wachtwoord van je gebruikersaccount, het hoeft niet bijzonder veilig te zijn en je zult het wachtwoord hierna nooit meer nodig hebben.
 
-![Software](../../assets/2004-software.png)
+![Software](../../assets/2204-software.png)
 
 Mogelijk krijg je hierna een waarschuwing scherm met een melding dat hij Ubuntu niet kan installeren ivm Bitlocker of Intel RST. In het geval van Bitlocker, zie de [[Bitlocker]]-pagina.
 In het geval van Intel RST, vraag om hulp om dit uit te schakelen.
 
-![BitLocker](../../assets/2004-bitlocker.png)
+![BitLocker](../../assets/2204-bitlocker.png)
 
 In het scherm daarna zal je gevraagd worden hoe je Ubuntu precies wilt installeren. Selecteer hier de optie "Install Ubuntu alongside Windows Boot Manager".
 
@@ -60,7 +63,7 @@ De laatste paar stappen wijzen zichzelf grotendeels. Een scherm met een wereldka
 
 Daarna zal de installatie beginnen. Dit zal ongeveer een kwartier tot een uur duren afhankelijk van je laptop. Als de installatie klaar is zal een dialoog verschijnen met de vraag of je wilt herstarten. Herstart het systeem.
 
-![install done](../../assets/1804-installdone.png)
+![install done](../../assets/2204-installdone.png)
 
 Tijdens het herstarten zal een melding verschijnen waarin staat dat je het installatiemedium moet verwijderen. Verwijder de USB-stick, en druk dan op de Enter-toets. Ubuntu zal dan opstarten.
 
