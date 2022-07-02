@@ -9,7 +9,7 @@
       
       
       <link rel="icon" href="../../../assets/uva.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.6">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.8">
     
     
       
@@ -17,7 +17,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.4a0965b7.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.1d29e8d0.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
@@ -852,6 +852,13 @@
           <li class="md-nav__item">
   <a href="#permanent-uitschakelen" class="md-nav__link">
     Permanent uitschakelen
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#firefox-installeren-als-deb-in-plaats-van-snap" class="md-nav__link">
+    Firefox installeren als deb in plaats van snap
   </a>
   
 </li>
@@ -2015,6 +2022,13 @@
 </li>
         
           <li class="md-nav__item">
+  <a href="#firefox-installeren-als-deb-in-plaats-van-snap" class="md-nav__link">
+    Firefox installeren als deb in plaats van snap
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#kan-nvidia-gpu-niet-uitschakelen-via-gui" class="md-nav__link">
     Kan NVIDIA GPU niet uitschakelen via GUI
   </a>
@@ -2155,6 +2169,17 @@ zodat een definitieve uitschakeling kan worden volbracht, volg de volgende stapp
 </ul>
 <h3 id="permanent-uitschakelen">Permanent uitschakelen</h3>
 <p>Verander nu hetzelfde in <code>/etc/default/grub</code> en voer <code>sudo update-grub</code> uit om de wijzigingen door te voeren.</p>
+<h3 id="firefox-installeren-als-deb-in-plaats-van-snap">Firefox installeren als deb in plaats van snap</h3>
+<p><code>sudo nano /etc/apt/preferences.d/firefox-no-snap</code>
+<div class="highlight"><pre><span></span><code>Package: firefox*
+Pin: release o=Ubuntu*
+Pin-Priority: -1
+</code></pre></div></p>
+<div class="highlight"><pre><span></span><code>sudo apt remove firefox
+sudo snap remove firefox
+sudo add-apt-repository ppa:mozillateam/ppa
+sudo apt install firefox
+</code></pre></div>
 <h3 id="kan-nvidia-gpu-niet-uitschakelen-via-gui">Kan NVIDIA GPU niet uitschakelen via GUI</h3>
 <p><img alt="prime screenshot" src="../../../assets/prime-intel-disabled.png" /></p>
 <p>Schakel via de command line interface:
@@ -2174,7 +2199,7 @@ zodat een definitieve uitschakeling kan worden volbracht, volg de volgende stapp
   <small>
     
       Laatst geüpdatet:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">June 7, 2022 12:34:20</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">June 7, 2022 12:34:57</span>
       
     
   </small>
@@ -2261,10 +2286,10 @@ zodat een definitieve uitschakeling kan worden volbracht, volg de volgende stapp
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes"], "search": "../../../assets/javascripts/workers/search.85cb4492.min.js", "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.config.lang": "nl", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Zoeken", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes"], "search": "../../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.config.lang": "nl", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Zoeken", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.a877e258.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.0238f547.min.js"></script>
       
     
   </body>

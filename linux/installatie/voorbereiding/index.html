@@ -9,7 +9,7 @@
       
       
       <link rel="icon" href="../../../assets/uva.png">
-      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.6">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.3.8">
     
     
       
@@ -17,7 +17,7 @@
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.4a0965b7.min.css">
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.1d29e8d0.min.css">
       
         
         <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
@@ -1810,15 +1810,17 @@
 <p>Gaat er iets mis tijdens of na de installatie? Kijk dan naar <a href="../problemen/">de pagina met veelvoorkomende problemen</a>, vraag om hulp of stuur (als je thuis bent) een mailtje naar <code>laptops-fnwi@uva.nl</code>. Tijdens de introductiedag is er een ruimte beschikbaar voor als de installatie uitloopt, als je niet weet waar dit is kan je dit aan een assistent vragen.</p>
 <h2 id="usb-voorbereiding">USB-voorbereiding</h2>
 <p>In deze stap download je het ISO-bestand voor Ubuntu desktop, en zet je deze op de usb-stick.
-Zorg allereerst dat je een lege USB-stick van minstens 4 GiB hebt en voer vervolgens de volgende stappen uit:</p>
+Zorg allereerst dat je een lege USB-stick van minstens 4 GiB hebt, en sluit deze aan op je computer.</p>
+<p>Download vervolgens het ISO-bestand van de 64-bit versie van Ubuntu 22.04 via de <a href="https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso">directe link</a> of de <a href="https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso.torrent">torrent</a>.</p>
+<p>Download het programma <a href="https://github.com/pbatard/rufus/releases/download/v3.18/rufus-3.18p.exe">Rufus</a>; een klein programma waarmee je de ISO naar de usb-stick kan schrijven, zonder handmatig partities te maken en bestanden te kopiëren.</p>
+<p>Nadat je Rufus hebt geopend:</p>
 <ol>
-<li>Download het ISO-bestand van de 64-bit versie van Ubuntu 20.04 via de <a href="https://releases.ubuntu.com/20.04.4/ubuntu-20.04.4-desktop-amd64.iso">Ubuntu website</a>.</li>
-<li>Plug de usb-stick in.</li>
-<li>Download het programma <a href="http://sourceforge.net/projects/usbwriter/">USBWriter</a>. USBWriter is een klein programma waarmee je de ISO naar de usb-stick kan schrijven. Na het downloaden pak je het .zip-bestand uit door rechts te klikken op het bestand, en dan "Alles uitpakken" te kiezen. Start daarna USBWriter.exe op.</li>
-<li>Selecteer als "Source" het zojuist gedownloade ISO-bestand.</li>
-<li>Selecteer je USB-stick als "Target" en klik op "Write". Bevestig dat je graag alle inhoud op de USB-stick wilt vernietigen.</li>
+<li>Selecteer je USB-stick (<code>Device</code>)</li>
+<li>Selecteer het Ubuntu ISO-bestand (<kbd>SELECT</kbd> knop).</li>
+<li>Zet <code>Partition scheme</code> op <code>GPT</code></li>
+<li>Druk op <kbd>START</kbd> en dan twee keer <kbd>OK</kbd></li>
 </ol>
-<p><img alt="Screenshot USB writer" src="../../../assets/usbwriter.png" /></p>
+<p><img alt="rufus" src="../../../assets/rufus.png" /></p>
 <h2 id="fast-start-up-uitschakelen">Fast start-up uitschakelen</h2>
 <p><em>Fast start-up</em> is een techniek om het opstarten van Windows te versnellen, door bij het afsluiten na het beëindigen van de gebruikerssessie in sluimerstand te gaan, waarbij de systeemstaat naar de harde schijf wordt geschreven om ingeladen te worden wanneer de computer weer opstart. Fast start-up (en sluimerstand in het algemeen) maakt het onveilig om naar je Windows-partitie te schrijven vanuit Linux. Tijdens de Ubuntu installer wordt de Windows partitie verkleind om ruimte te maken voor Ubuntu, dus is het nodig om fast start-up uit te schakelen.</p>
 <h3 id="windows-10">Windows 10</h3>
@@ -1850,7 +1852,7 @@ Zorg allereerst dat je een lege USB-stick van minstens 4 GiB hebt en voer vervol
   <small>
     
       Laatst geüpdatet:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">June 19, 2022 11:07:23</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-datetime">July 2, 2022 09:32:59</span>
       
     
   </small>
@@ -1937,10 +1939,10 @@ Zorg allereerst dat je een lege USB-stick van minstens 4 GiB hebt en voer vervol
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes"], "search": "../../../assets/javascripts/workers/search.85cb4492.min.js", "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.config.lang": "nl", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Zoeken", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.indexes"], "search": "../../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Gekopieerd naar klembord", "clipboard.copy": "Kopi\u00ebren naar klembord", "search.config.lang": "nl", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Zoeken", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "Geen overeenkomende documenten", "search.result.one": "1 overeenkomende document", "search.result.other": "# overeenkomende documenten", "search.result.placeholder": "Typ om te beginnen met zoeken", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.a877e258.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.0238f547.min.js"></script>
       
     
   </body>
