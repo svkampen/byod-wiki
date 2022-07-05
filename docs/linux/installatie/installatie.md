@@ -43,7 +43,7 @@ Het scherm daarna zal je vragen software van derden te installeren, vink deze aa
 
 ![Software](../../assets/2204-software.png)
 
-Mogelijk krijg je hierna een waarschuwing scherm met een melding dat hij Ubuntu niet kan installeren ivm Bitlocker of Intel RST. In het geval van Bitlocker, zie de [[Bitlocker]]-pagina.
+Mogelijk krijg je hierna een waarschuwing scherm met een melding dat hij Ubuntu niet kan installeren ivm Bitlocker of Intel RST. In het geval van Bitlocker, zie de [Bitlocker-pagina](./bitlocker.md).
 In het geval van Intel RST, vraag om hulp om dit uit te schakelen.
 
 ![BitLocker](../../assets/2204-bitlocker.png)
