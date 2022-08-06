@@ -47,12 +47,12 @@ pip install --user <package>
 
 ## Virtual environment
 
-Een virtual environment is een geisoleerde omgeving met zijn eigen Python packages. Installeer eerst ondersteuning voor virtual environments:
+Een *virtual environment* (`venv`) is een geisoleerde omgeving met zijn eigen Python packages. Installeer eerst ondersteuning voor virtual environments:
 ```
-sudo apt install python3-virtualenv
+sudo apt install python3-venv
 ```
 
-Vervolgens kan je een vertualenv maken in een map:
+Vervolgens kan je een `venv` maken in een map:
 ```
 python3 -m venv venv
 ```
