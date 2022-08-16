@@ -55,6 +55,7 @@ nav:
     - 'Python': 'software/python.md'
     - 'LaTeX': 'software/latex.md'
     - 'Matlab': 'software/matlab.md'
+    - 'Thunderbird (e-mail)': 'software/thunderbird.md'
   - 'Linux':
     - 'Linux': 'linux/index.md'
     - 'Eduroam': 'linux/eduroam.md'
