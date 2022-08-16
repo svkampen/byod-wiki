@@ -18,6 +18,10 @@ Plak de volgende regel in je terminal, druk op enter en vul je wachtwoord in:
 sudo bash -c "$(wget -q -O - https://raw.githubusercontent.com/UvA-FNWI/byod-scripts/master/install-extras.sh)"
 ```
 
+<!--
+
+TODO dit is verouderd, dus beter tijdelijk verbergen dan verkeerde informatie laten zien.
+
 ## Pakketten
 
 Het shell script zal de volgende pakketten op je laptop installeren:
@@ -133,3 +137,5 @@ Het shell script zal de volgende pakketten op je laptop installeren:
 ### Optioneel voor KI en Informatica
 
 * [chromium-browser](https://packages.ubuntu.com/focal/chromium-browser)
+
+-->
