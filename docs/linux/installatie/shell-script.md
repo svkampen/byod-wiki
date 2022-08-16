@@ -1,14 +1,17 @@
 # Shell script
 
+!!! warning "Draai het script alleen op een nieuw geïnstalleerd Ubuntu 22.04 systeem."
+    Het shell script is alleen gemaakt voor Ubuntu 22.04 en maakt aanpassingen die mogelijk niet gewenst zijn als je zelf al gebruikt maakt van Linux naast de UvA. In dit geval kan je het script doorlezen en handmatig enkele delen uitvoeren.
+
 !!! hint "Internetverbinding"
-    Als je net Linux hebt geïnstalleerd wil je misschien eerst [verbinden met eduroam](../eduroam.md).
+    Als je net Linux hebt geïnstalleerd is het nodig eerst [verbinding te maken met eduroam](../eduroam.md).
 
 ## Gebruik van het script
 
-Open allereerst een terminal: Ctrl + Alt + T
+Open allereerst een terminal: <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>
 
 !!! hint
-    In een terminal gebruik je niet Ctrl+C, Ctrl+V maar Ctrl+Shift+C, Ctrl+Shift+V
+    In een terminal gebruik je niet <kbd>Ctrl</kbd>+<kbd>V</kbd>, maar <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>V</kbd>. Hetzelfde geldt voor <kbd>Ctrl</kbd>+<kbd>C</kbd>.
 
 Plak de volgende regel in je terminal, druk op enter en vul je wachtwoord in:
 ```
