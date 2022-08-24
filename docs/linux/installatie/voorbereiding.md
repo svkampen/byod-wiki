@@ -7,7 +7,7 @@ Gaat er iets mis tijdens of na de installatie? Kijk dan naar [de pagina met veel
 In deze stap download je het ISO-bestand voor Ubuntu desktop, en zet je deze op de usb-stick.
 Zorg allereerst dat je een lege USB-stick van minstens 4 GiB hebt, en sluit deze aan op je computer.
 
-Download vervolgens het ISO-bestand van de 64-bit versie van Ubuntu 22.04 via de [directe link](https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso) of de [torrent](https://releases.ubuntu.com/22.04/ubuntu-22.04-desktop-amd64.iso.torrent).
+Download vervolgens het ISO-bestand van de 64-bit versie van Ubuntu 22.04 via de [directe link](https://releases.ubuntu.com/22.04/ubuntu-22.04.1-desktop-amd64.iso) of de [torrent](https://releases.ubuntu.com/22.04/ubuntu-22.04.1-desktop-amd64.iso.torrent).
 
 Download het programma [Rufus](https://github.com/pbatard/rufus/releases/download/v3.18/rufus-3.18p.exe); een klein programma waarmee je de ISO naar de usb-stick kan schrijven, zonder handmatig partities te maken en bestanden te kopiëren.
 
